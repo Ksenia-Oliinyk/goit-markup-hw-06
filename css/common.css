@@ -56,6 +56,10 @@ img {
   margin: -1px;
 }
 
+.hide {
+  display: none;
+}
+
 .accent {
   color: #4d5ae5;
 }
