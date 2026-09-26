@@ -1,0 +1,131 @@
+.footer {
+  padding: 100px 0;
+  background: #2e2f42;
+}
+
+.footer .container {
+  display: flex;
+}
+
+.footer-wrapper {
+  width: 264px;
+  max-width: 264px;
+  margin-right: 120px;
+}
+
+.footer-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.footer-text {
+  margin-top: 16px;
+
+  color: #f4f4fd;
+}
+
+.footer-social {
+}
+.footer-caption {
+  font-weight: 500;
+
+  margin-bottom: 16px;
+
+  color: #fff;
+}
+.footer-list {
+  display: flex;
+  gap: 16px;
+}
+.footer-item {
+}
+.footer-link {
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 20px;
+  background-color: #4d5ae5;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
+}
+.footer-icon {
+  color: #f4f4fd;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  background-color: #31d0aa;
+}
+
+/* Footer form */
+
+.footer-subscribe {
+  margin-left: 83px;
+}
+.footer-caption {
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.footer-subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+.footer-subscribe-input {
+  padding: 8px 16px;
+  width: 264px;
+  height: 40px;
+
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  background-color: transparent;
+  outline: transparent;
+  border: 1px solid #fff;
+  border-radius: 4px;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border-color;
+}
+
+.footer-subscribe-input:focus {
+  border-color: #31d0aa;
+}
+
+.footer-subscribe-input::placeholder {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.footer-btn {
+  max-width: 165px;
+  height: 40px;
+  padding: 8px 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+
+  border-radius: 4px;
+}
+
+.footer-btn:hover,
+.footer-btn:focus {
+  background-color: #31d0aa;
+}
+
+.footer-subscribe-icon {
+  color: #fff;
+}
