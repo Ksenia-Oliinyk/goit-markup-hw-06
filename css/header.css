@@ -1,12 +1,18 @@
 .header {
-  padding: 16px;
+  padding: 16px 0;
   border-bottom: 1px solid #e7e9fc;
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    padding: 0;
+  }
 }
 
 .header .container {
   display: flex;
   align-items: center;
-  padding: 0;
+  padding: 0 16px;
 }
 
 .header-logo {
@@ -14,10 +20,27 @@
 }
 
 .nav {
-  display: none;
   margin-right: auto;
-  margin-left: 76px;
 }
+
+@media only screen and (max-width: 767.98px) {
+  .nav {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nav {
+    margin-left: 120px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .nav {
+    margin-left: 76px;
+  }
+}
+
 .nav-list {
   display: flex;
   align-items: center;
@@ -43,11 +66,28 @@
 }
 
 .address-list {
-  display: none;
-  /* display: flex; */
+  display: flex;
   align-items: center;
+}
 
-  gap: 40px;
+@media only screen and (max-width: 767.98px) {
+  .address-list {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .address-list {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .address-list {
+    flex-direction: row;
+    gap: 40px;
+  }
 }
 
 .address-link {
