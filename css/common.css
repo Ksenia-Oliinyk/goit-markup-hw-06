@@ -40,12 +40,14 @@ img {
 
 .container {
   min-width: 320px;
+  width: 320px;
   padding: 0 16px;
   margin: 0 auto;
 }
 
 @media only screen and (min-width: 768px) {
   .container {
+    width: 768px;
     max-width: 768px;
   }
 }
@@ -53,6 +55,7 @@ img {
 @media only screen and (min-width: 1158px) {
   .container {
     min-width: 1158px;
+    padding: 0 15px;
   }
 }
 
