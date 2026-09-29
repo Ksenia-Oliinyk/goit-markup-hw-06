@@ -55,6 +55,7 @@ img {
 @media only screen and (min-width: 1158px) {
   .container {
     min-width: 1158px;
+    max-width: 1158px;
     padding: 0 15px;
   }
 }

@@ -15,14 +15,14 @@
   justify-content: space-between;
 }
 
-@media only screen and (max-width: 767.98px) {
-  .header .container {
-    padding: 16px;
-  }
-}
-
 .header-logo {
   color: #2e2f42;
+}
+
+@media only screen and (max-width: 767.98px) {
+  a.header-logo {
+    padding: 16px;
+  }
 }
 
 .nav {

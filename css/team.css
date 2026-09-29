@@ -37,11 +37,11 @@
   background: #fff;
 }
 
-@media only screen and (min-width: 1158px) {
+/* @media only screen and (min-width: 1158px) {
   .team-item {
     width: calc((100% - 24px) / 2);
   }
-}
+} */
 
 .team-avatar {
   margin: 0 auto;
